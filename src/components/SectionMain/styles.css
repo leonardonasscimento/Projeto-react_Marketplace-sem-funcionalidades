@@ -1,0 +1,58 @@
+.container-section {
+  min-height: 100vh;
+  background-color: var(--color-background-section);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-section h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 116.7%;
+  color: var(--color-text-section);
+  text-shadow: 0px 4px 4px var(--card-text-shadow);
+  width: 80%;
+  margin-top: 86px;
+}
+
+.subtitle-button {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 61px 0 37px 0;
+}
+
+.subtitle-button h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0.25px;
+  color: var(--color-text-section);
+}
+
+.subtitle-button button {
+  text-align: center;
+  padding: 6px 16px;
+  background: var(--color-add-product);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.container-cards {
+  height: 100%;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 15px;
+}

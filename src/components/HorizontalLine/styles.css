@@ -1,0 +1,7 @@
+.horizontal-line {
+  height: 0px;
+  width: 1100px;
+  border-bottom: 1px solid #bfbfbf;
+  box-shadow: 0px 4px 4px var(--card-text-shadow);
+  margin-bottom: 100px;
+}

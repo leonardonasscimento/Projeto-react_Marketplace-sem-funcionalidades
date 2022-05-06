@@ -1,0 +1,23 @@
+header {
+  width: 100vw;
+  background-color: var(--color-background-header);
+  color: var(--color-text-header);
+  height: 64px;
+  box-shadow: 0px 4px 4px var(--card-text-shadow);
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  margin: 0 16px;
+}
+
+header span {
+  font-family: "Salsa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 4px var(--card-text-shadow);
+}

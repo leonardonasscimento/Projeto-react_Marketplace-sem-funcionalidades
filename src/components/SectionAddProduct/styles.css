@@ -1,0 +1,116 @@
+.container-product {
+  min-height: 100vh;
+  background-color: var(--color-background-section);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container-product h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 116.7%;
+  color: var(--color-text-section);
+  text-shadow: 0px 4px 4px var(--card-text-shadow);
+  margin: 86px 0 0 89px;
+}
+
+.container-product h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  letter-spacing: 0.25px;
+  color: var(--color-text-section);
+  margin: 62px 0 0 89px;
+}
+
+form {
+  margin: 62px 0 0 89px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 392px;
+  height: 48px;
+  color: var(--color-text-label);
+  margin-bottom: 48px;
+}
+
+label input {
+  padding: 5px;
+}
+
+.price-stock {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-stock label {
+  width: 184px;
+}
+
+.line {
+  margin: 82px 0 0 89px;
+}
+
+.cancel-add-product {
+  display: flex;
+  align-items: flex-end;
+  margin: -70px 0 32px 89px;
+}
+
+.cancel-add-product span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: var(--color-add-product);
+  cursor: pointer;
+}
+
+.cancel-add-product :nth-child(2) {
+  text-align: center;
+  padding: 6px 16px;
+  background: var(--color-add-product);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  margin: 0 155px 0 27px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.cancel-add-product :nth-child(3) {
+  text-align: center;
+  padding: 6px 16px;
+  background: #2e7d32;
+  box-shadow: 0px 4px 4px var(--card-text-shadow);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  height: 52px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+}
+
+.cancel-add-product :nth-child(2),
+.cancel-add-product :nth-child(3) {
+  color: #ffffff;
+}
